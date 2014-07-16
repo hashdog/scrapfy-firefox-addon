@@ -38,7 +38,7 @@
         display: block;
         font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
         font-size: 16px;
-        margin: 20px auto 5px auto;
+        margin: 10px auto 5px auto;
         outline: none;
         padding: 10px 27px;
         text-decoration: none;
@@ -50,6 +50,7 @@
         background-color: #df5252;
         border-color: #ca4848;
       }
+      #loading-text { display: none; }
     </style>
   </head>
   <body>
@@ -75,7 +76,10 @@
         <option value="xml:xml:XML">XML</option>
         <option value="yaml:yaml:YAML">YAML</option>
       </select>
-      <a href="#" id="create-btn" class="btn-create">Create Rooms</a>
+      <a href="#" id="create-btn" class="btn-create">
+        <span id="loading-text"><img src="img/loading.gif"> Loading...</span>
+        <span id="create-text">Create Room</span>
+      </a>
     </div>
   </body>
 </html>
