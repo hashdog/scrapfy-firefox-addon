@@ -1,0 +1,9 @@
+{
+  "name": "scrapfy-firefox",
+  "title": "SCRAPfy",
+  "id": "jid1-Us7kx75RYJxv3Q",
+  "description": "A collaborative code editor for ninjas.",
+  "author": "Mario Colque <mario@hashdog.io>",
+  "license": "GPL",
+  "version": "0.1.0"
+}
